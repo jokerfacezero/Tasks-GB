@@ -9,6 +9,7 @@ while(true)
     Console.WriteLine(DateTime.Now.ToString());
     Console.ReadLine();
     if(name == "lll")
+
     {
         break;
 
