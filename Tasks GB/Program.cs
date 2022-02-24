@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Name?");
+﻿//Задание 1. Вывести имя на консоль, вместе временем.
+Console.WriteLine("Name?");
 
 string name;
 
@@ -8,7 +9,8 @@ while(true)
     Console.WriteLine(name);
     Console.WriteLine(DateTime.Now.ToString());
     Console.ReadLine();
-    if(name == "kkk")
+    if(name == "lll")
+
     {
         break;
 
