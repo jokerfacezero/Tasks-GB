@@ -8,7 +8,8 @@ while(true)
     Console.WriteLine(name);
     Console.WriteLine(DateTime.Now.ToString());
     Console.ReadLine();
-    if(name == "kkk")
+    if(name == "lll")
+
     {
         break;
 
