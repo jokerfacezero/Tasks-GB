@@ -1,10 +1,11 @@
 ﻿//Задание 1. Вывести имя на консоль, вместе временем.
-Console.WriteLine("Name?");
+
 
 string name;
 
 while(true)
 {
+    Console.WriteLine("Name?");
     name = Console.ReadLine();
     Console.WriteLine(name);
     Console.WriteLine(DateTime.Now.ToString());
