@@ -15,6 +15,7 @@ namespace Task_3
         static void Main(string[] args)
         {
             #region Первое задание
+
             // Massives massives = new Massives();
             // massives.GetMassive();
             // massives.PrintMassive();
