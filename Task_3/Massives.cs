@@ -8,7 +8,7 @@ namespace Task_3
 {
     internal class Massives
     {
-        int[,] arr = new int[2, 2];
+        int[,] arr = new int[5, 5];
         
         public void GetMassive()
         {
@@ -25,11 +25,11 @@ namespace Task_3
         {
             for (int i = 0; i < arr.GetLength(0); i++)
             {
-                for (int j = 1; j < arr.GetLength(1); j++)
+                for (int j = 0; j < arr.GetLength(1); j++)
                 {
-                    Console.Write($"{arr[i, i]} ");
+                    
                 }
-                Console.WriteLine();
+                Console.Write($"{arr[i, i]} ");
             }
         }
     }
